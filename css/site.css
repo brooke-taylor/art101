@@ -4,42 +4,57 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #f4e6f5;
+  background-color: #ffffff;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#43385b
 }
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  letter-spacing: 5px;
-  word-spacing: 5px;
+  font-family: 'Lucida Grande','Arial', sans-serif;
+  font-weight:lighter;
+  letter-spacing: 3px;
+  word-spacing: 3px;
   font-size: 200%;
+  text-shadow: 2px 2px 4px black;
+  color:#ffffff
 }
 
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lucida Grande', 'Arial', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  color:#65538b
+  
+
 }
 
 li {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#8975b4
+
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #21203a;
+  border: ridge 2px #ffffff;
   background-color: #bfc6dc;
+  background-size:contain;
+  background-image: url(https://wallpapercave.com/wp/SEckhP8.jpg)
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #392b46;
-  background-color: #e0d6e3;
+  border: ridge 3.5px #c4b4d2;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-image: url(https://c4.wallpaperflare.com/wallpaper/273/477/287/aero-blue-25-wallpaper-thumb.jpg) */
 }
