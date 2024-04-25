@@ -1,21 +1,26 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Test JavaScript Program w/ Variables & Declaration
+  // Author: Brooke Taylor
+  // Date: 25 April
 
-// Constants
 
-// Functions
+// Defining Variables
+  let make = "Bus";
+  let model = "Metro";
+  let color = "Varies";
+  let year = 2000; // Placeholder assumption - this varies too !
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Age Calculation
+  let age = 2024 - year;
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Boolean for Ownership
+  var ownIt = false;
 
-// let's get this party started
-main();
+// Outputting Results
+  document.writeln("Make: " + make + "<br>");
+  document.writeln("Model: " + model + "<br>");
+  document.writeln("Color: " + color + "<br>");
+  document.writeln("Year: " + year + "<br>");
+  document.writeln("Age: " + age + " years<br>");
+
+
+
