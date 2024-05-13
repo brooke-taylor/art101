@@ -1,0 +1,23 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+.special {
+  background-color: azure;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: ridge 5px #888;
+  color:darkblue;
+  font-weight: bold;
+  font-size: large;
+}
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: ridge 3.5px #c4b4d2;
+  background-color: #ddd8c5;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-image: url(https://c4.wallpaperflare.com/wallpaper/273/477/287/aero-blue-25-wallpaper-thumb.jpg) */
+}
