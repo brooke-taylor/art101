@@ -1,0 +1,53 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(74, 70, 70);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+  }
+
+  /* Text for the conversation output */
+.conversation-text {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+  clear: both;
+  position: relative
+}
+
+/* Big thank you to ChatGPT for the following code !!
+
+// Causes each additional bubble of text to align in a pattern, left to right. 
+
+  /* Style for odd-numbered text elements (align to left) */
+  .conversation-text:nth-child(odd) {
+    background-color: #f1f0f0;
+    float: left;
+  }
+
+  /* Style for even-numbered text elements (align to right) */
+  .conversation-text:nth-child(even) {
+    background-color: #4e87dd;
+    color: white;
+    float: right;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 10 - JavaScript for the Web</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 10 - Javascript for the Web</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge of this lab was to experiment with DOM manipulation using JavaScript.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>A good bit of problems arose in the bonus task for this assignment, as well as with the button not functioning properly. I was able to resolve the latter issue by incorporating the NewText variable and output statement into the event listener function.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>This assignment went alright, I think! It involved a good bit of additional research on my end to get everything working properly, but I do feel a bit more comfortable with understanding how to get buttons working, at least!</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div class="conversation-text" id="output"></div>
+			</div>
+
+			<div id = "output"> </div>
+			<button id="converse">Continue the Conversation</button>
+
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
