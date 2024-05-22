@@ -6,22 +6,18 @@
 // Author: Brooke Taylor
 // Date: May 12
 
+// DEBUGGED 5/22 ** Shoutout to Wes' Lab 9 website code and the sample Canvas code, they greatly aided in me getting my own lab to work! **
+
 //jQuery Button Appending - Challenge, Problems, and Results sections
-$("#challenge").append("<button id='specialButton'>click to add spice ! </button>");
 
-$("#problems").append("<button id='specialButton'>click to add spice ! </button>");
-
-$("#reflection").append("<button id='specialButton'>click to add spice ! </button>");
+// appends buttons to all "minor section"s within the index.html.
+$(".minor-section").append("<button class='toggle-button'>! push to highlight !</button>");
 
 
-//adding a click listener to the challenge button
-$('#specialButton').click(function(){
-    // toggles the "special" class for this section
-    $("#challenge").toggleClass("special");
-    $("#problems").toggleClass("special");
-    $("#reflection").toggleClass("special");
-    
-    $("#challenge, #problems, #reflection").toggleClass("minor-section");
-});
+// Test each button
+$(".toggle-button").click(function(){
 
+  //"this" refers to the clicked button, and then toggles the class.
+    $(this).parent().toggleClass("special");
 
+})
