@@ -12,7 +12,7 @@
 
 // appends buttons to all "minor section"s within the index.html.
 $(".minor-section").append("<button class='toggle-button'>! push to highlight !</button>");
-
+ 
 
 // Test each button
 $(".toggle-button").click(function(){
