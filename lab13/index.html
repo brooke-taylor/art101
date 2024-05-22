@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 13 - Loops</title>
+
+	<!-- UTF charset -->
+  	<meta charset="UTF-8" />
+	<!-- Viewport consistency between devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Sitewide CSS Link -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- loads jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+
+	<main id="content">
+		<section>
+
+			<h1>Lab 13 - Loops</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge of this lab was to experiment with loops, utilizing javascript functions to do so. In the end, we put together a variation of the FizzBuzz word game!</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>I had a lot of problems getting the output to actually work: the button took a good while to get going. I believe this was a result of me not assigning the ID properly, though with how much trial and error I went through I honestly can't remember...</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>This assignment went decently, primarily because of the sample code in Canvas, as well as Wes' code in their own Art101 site. Both sources helped tremendously in getting this lab to work, and I made sure to meaningfully explore the code to understand it, rather than just copying and pasting the blocks. Thus, there's tons of comments in the JS file.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>FizzBuzzBang</h2>
+            <div id="input">
+                What number should we stop at? <input type="number" min=0 max="1000" id="max"><br>
+                Specify which factors will print what:<br>
+                <table>
+                    <tr>
+                        <th>Factor? </th>
+                        <th>Prints?</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num0">ie, 1, 2, 3...</td>
+                        <td><input type="text" id="text0">ie, fizz, buzz, bang...</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num1"></td>
+                        <td><input type="text" id="text1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num2"></td>
+                        <td><input type="text" id="text2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min=0 max="23" id="num3"></td>
+                        <td><input type="text" id="text3"></td>
+                    </tr>
+                </table>
+                <button id="submit">Run</button>
+            </div>
+            <h3>Output</h3>
+            <div id="output"></div>
+        </div>
+			</div>
+
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>

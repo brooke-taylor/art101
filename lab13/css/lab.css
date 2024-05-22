@@ -1,0 +1,46 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  input[type="number"] {
+    width: 40px;
+}
+input[type="text"] {
+    width: 100px;
+}
+
+input#max {
+    width: 60px;
+}
+
+table {
+    padding: 20px;
+}
+
+input, button {
+    font-size: 90%;
+}
+
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* this is to make the paragraphs in the output closer together */
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.columns {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
