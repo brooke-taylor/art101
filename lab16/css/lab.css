@@ -1,0 +1,28 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  main img {
+    width: inherit !important;
+    max-width: 100%;
+  }
+  
+  #output {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+  }
+
+
+  /*Using h3 to specially format the error message in red, if it pops up */
+  h3 {
+  
+    color: rgb(133, 13, 13);
+    text-decoration: underline;
+  }
