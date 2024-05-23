@@ -1,0 +1,26 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  /* text for the fetched answer */
+h3 {
+  
+  color: rgb(255, 255, 255);
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+            -webkit-text-fill-color: rgb(255, 242, 200);
+  font-size: 50px;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.response-image {
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
